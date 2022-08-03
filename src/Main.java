@@ -19,13 +19,13 @@ public class Main {
 
         {
             double mass2[] = {1.57, 7.654, 9.986};
-            for (int i = 0; i < 3; i++){
+            for (int i = 0; i < mass2.length; i++){
                 if (i == mass2.length - 1)
                 {System.out.println(mass2[i] + " ");}
                 else {
                     System.out.print(mass2[i] + ",");
                 }}
-            for (int i = 2; i >= 0; i--)
+            for (int i = mass2.length - 1; i >= 0; i--)
                 if (i > 0) {
                     System.out.print(mass2[i] + ",");
                 } else {
@@ -36,7 +36,7 @@ public class Main {
 
         {
             int mass3[] = new int[5];
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < mass3.length; i++) {
                 if (i == mass3.length - 1)
                     System.out.println(mass3[i] + " ");
                 else {
@@ -50,7 +50,7 @@ public class Main {
                     System.out.println(mass3[i]);
                 }
             }}
-        for (int i = 0; i < 3;i++){
+        for (int i = 0; i < mass1.length;i++){
             if (mass1[i] % 2 != 0){
                 mass1[i] = mass1[i] + 1;
                 System.out.print(mass1[i]);
