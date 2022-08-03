@@ -3,12 +3,12 @@ public class Main {
 
         int mass1[] = {1, 2, 3};
         for (int i = 0; i < 3; i++) {
-               if (i == mass1.length - 1)
-               {System.out.println(mass1[i] + " ");}
-               else {
-                   System.out.print(mass1[i] + ",");
-                }
+            if (i == mass1.length - 1)
+            {System.out.println(mass1[i] + " ");}
+            else {
+                System.out.print(mass1[i] + ",");
             }
+        }
         for (int i = 2; i >= 0; i--) {
             if ( i > 0){
                 System.out.print(mass1[i] + ",");}
