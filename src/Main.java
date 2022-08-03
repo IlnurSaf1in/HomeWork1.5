@@ -17,6 +17,7 @@ public class Main {
             }
         }
 
+
         {
             double mass2[] = {1.57, 7.654, 9.986};
             for (int i = 0; i < mass2.length; i++){
