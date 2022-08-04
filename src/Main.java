@@ -8,6 +8,7 @@ public class Main {
             else {
                 System.out.print(mass1[i] + ",");
             }
+
         }
         for (int i = 2; i >= 0; i--) {
             if ( i > 0){
@@ -16,7 +17,7 @@ public class Main {
                 System.out.println(mass1[i]);
             }
         }
-
+        System.out.println("первый массив вывод обычный и в обратном порядке");
 
         {
             double mass2[] = {1.57, 7.654, 9.986};
@@ -32,6 +33,7 @@ public class Main {
                 } else {
                     System.out.println(mass2[i]);
                 }
+            System.out.println("второй  массив вывод обычный и в обратном порядке");
         }
 
 
@@ -50,7 +52,9 @@ public class Main {
                 else {
                     System.out.println(mass3[i]);
                 }
-            }}
+            }
+            System.out.println("третий массив вывод обычный и в обратном порядке");
+        }
         for (int i = 0; i < mass1.length;i++){
             if (mass1[i] % 2 != 0){
                 mass1[i] = mass1[i] + 1;
